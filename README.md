@@ -10,7 +10,7 @@ git clone https://github.com/Wolfy-Developers/libwinefix
 cd libwinefix/
 make
 ```
-Now you must export the newly compiled file to a variable LD_PRELOAD:
+Now you must export the newly compiled file to a variable LD_PRELOAD, and start Wine:
 ```
-export LD_PRELOAD=`pwd`/libwinefix.so
+LD_PRELOAD=`pwd`/libwinefix.so wine
 ```
