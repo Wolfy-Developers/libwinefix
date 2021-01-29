@@ -7,7 +7,7 @@ The LD_PRELOAD trick is a useful technique to influence the linkage of shared li
 Before you start using the library, you must first clone this git repository, and compile it:
 ```
 git clone https://github.com/Wolfy-Developers/libwinefix
-cd libwinefix
+cd libwinefix/
 make
 ```
 Now you must export the newly compiled file to a variable LD_PRELOAD:
